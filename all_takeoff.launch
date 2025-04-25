@@ -1,0 +1,13 @@
+<launch>
+
+    
+    <node name="drone1_follower" pkg="iq_sim" type="drone1_waypoints.py" output="screen" />
+   
+    <node name="drone2_follower" pkg="iq_sim" type="drone2_waypoints.py" output="screen" />
+
+    <node name="drone3_follower" pkg="iq_sim" type="drone3_waypoints.py" output="screen" />
+
+    <node name="drone4_follower" pkg="iq_sim" type="drone4_waypoints.py" output="screen" />
+    
+    
+</launch>
